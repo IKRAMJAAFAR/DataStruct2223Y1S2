@@ -1,0 +1,17 @@
+Output will be shown as follows:
+(1) Performs Person's tasks
+(2) Invoke Employee's overloaded constructor
+(3) Performs Employee's tasks 
+(4) Performs Faculty's tasks
+Explanation:
+- Declaring the name of the file as Faculty.java since it has main class
+- In the main class:
+    *Call its constructor
+    *Faculty inherits Employee
+    *Employee inherits Person
+- Thus, the constructor in Person class is to be executed
+- Followed by Employee
+- In the line computed at Employee constructor:
+    *It starts off with overloading with the String parameter
+    *Then, continued as procedure
+- Lastly, executed the Faculty constructor
