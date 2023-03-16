@@ -1,0 +1,8 @@
+Output as follows:
+AB
+Explanation:
+- Object class -> no obligation to put variables
+- o[0] prints "A":
+    *Call from A() class
+- o[1] prints "B":
+    *Call from B() class
