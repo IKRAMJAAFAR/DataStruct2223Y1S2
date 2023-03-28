@@ -1,0 +1,12 @@
+What is a raw type? 
+A generic class/interface used without specifying a concrete type/without a type parameter
+
+
+Why is a raw type unsafe? 
+- It can face a runtime error if they face different parameters type
+- Cannot check the type and its safety
+
+Why is the raw type allowed in Java?
+- For backward compatiblity with per-Java 5 code -> Cannot support generics
+
+

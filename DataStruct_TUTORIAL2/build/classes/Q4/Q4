@@ -1,0 +1,7 @@
+What is erasure? 
+Process where the compiler erases the generic type info used to compile codes afterwards
+- Type parameters in generic code are replaced with their upper bounds
+
+Why are Java generics implements using erasure?
+To maintain backward compatibility
+To avoid breaking existing code that did not use generics
